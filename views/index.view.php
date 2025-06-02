@@ -1,0 +1,21 @@
+<?php require('partials/header.php'); ?>
+<?php require('partials/nav.php'); ?>
+<?php require('partials/banner.php'); ?>
+
+<main>
+    <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+        <div class="container">
+            <h2>Home</h2>
+            <p>You are on home page.</p>
+            <br>
+            <h3><?= $business['name']; ?></h3>
+            <ul>
+                <?php foreach ($business['cat'] as $cat) : ?>
+                    <li><?= $cat; ?></li>
+                <?php endforeach; ?>
+            </ul>
+        </div>
+    </div>
+</main>
+
+<?php require('partials/footer.php'); ?>

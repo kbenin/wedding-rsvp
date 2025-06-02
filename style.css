@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+    font-family: Comic Sans MS;
+    font-size: 1.2em;
+    padding: 60px 15px;  
+}
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 30px;
+    transition: all 0.3s ease;
+}
+ul li:hover {
+    margin-top: -20px;
+}
+ul li h3 {
+    margin: 0 0 5px 0;
+}
+ul li .release-date {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+ul li .badge-wrapper {
+    display: flex;
+    gap: 5px;
+}
+ul li .badge-wrapper span {
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: yellow;
+    background: black;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+ul li .badge-wrapper span.base-game {
+    background: green;
+} 
+ul li .badge-wrapper span.dlc {
+    background: red;
+}
+ul li a {
+    font-weight: bold;
+    font-size: 15px;
+}
