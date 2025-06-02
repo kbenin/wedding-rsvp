@@ -1,0 +1,32 @@
+.banner-inner {
+	margin-top: 61px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	min-height: 30vh;
+	position: relative;
+	padding: 60px 15px;
+}
+.banner-inner::before {
+	position: absolute;
+	inset: 0;
+	content: '';
+	background-color: #000;
+	/* background-color: var(--background); */
+	opacity: 0.4;
+}
+.banner-inner .container {
+	position: relative;
+	z-index: 1;
+}
+.banner-inner .heading {
+	color: var(--pink);
+	font-size: 130px;
+	margin: 0;
+}

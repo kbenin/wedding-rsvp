@@ -1,80 +1,144 @@
-.featured-section ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-    width: 100%;
+.banner {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 90vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: end;
+	padding-bottom: 20px;
+	text-align: center;
+	position: relative;
 }
-.featured-section ul li.game-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #d2d2d2;
-    border-radius: 10px;
-    padding: 30px;
-    transition: all 0.3s ease;
-    width: 100%;
-    max-width: 32.33%;
-    position: relative;
-    overflow: hidden;
+.banner::before {
+	position: absolute;
+	inset: 0;
+	content: '';
+	background-color: #000;
+	/* background-color: var(--background); */
+	opacity: 0.4;
 }
-.featured-section ul li.game-item::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background-color: #fff;
-    opacity: 0.85;
+.banner .container {
+	position: relative;
+	z-index: 1;
 }
-.featured-section ul li.game-item:hover {
-    transform: scale(0.98);
+.banner .event-title {
+	color: white;
+	line-height: 1;
+	margin: 0;
+	font-size: 120px;
 }
-.featured-section ul li.game-item {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+.banner .event-description {
+	color: white;
+	font-size: 16px;
 }
-.featured-section ul li.game-item .content-wrapper {
-    position: relative;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.banner .countdown {
+	color: white;
+	list-style: none;
+	padding: 0;
+	display: flex; 
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	column-gap: 50px;
 }
-.featured-section ul li.game-item h3 {
-    margin: 0 0 5px 0;
-    text-align: center;
+.banner .countdown .countdown-number {
+	font-size: 100px;
+	color: var(--pink);
+	margin: 0;
+	line-height: 1;
 }
-.featured-section ul li.game-item .release-date {
-    font-size: 12px;
-    margin-bottom: 10px;
-}
-.featured-section ul li.game-item .badge-wrapper {
-    display: flex;
-    gap: 5px;
-}
-.featured-section ul li.game-item .badge-wrapper span {
-    margin-bottom: 5px;
-    font-size: 12px;
-    font-weight: bold;
-    color: yellow;
-    background: black;
-    width: fit-content;
-    padding: 5px 10px;
-    border-radius: 25px;
-}
-.featured-section ul li.game-item .badge-wrapper span.base-game {
-    background: green;
+.banner .countdown .countdown-label {
+	font-size: 20px;
+	color: white;
 } 
-.featured-section ul li.game-item .badge-wrapper span.dlc {
-    background: red;
+
+.links {
+	background-color: var(--background);
+	padding: 90px 15px;
 }
-.featured-section ul li.game-item a.store-link {
-    font-weight: bold;
-    font-size: 15px;
-    margin-top: 10px;
+.links .cards-wrapper {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	column-gap: 30px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.links .cards-wrapper .card {
+	width: 100%;
+	max-width: 33.33%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	min-height: 600px;
+	position: relative;
+	text-decoration: none;
+}
+.links .cards-wrapper .card::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	background-color: var(--pink);
+	opacity: 0.7;
+	transition: all 0.3s ease;
+}
+.links .cards-wrapper .card:hover::before {
+	opacity: 0;
+	transition: all 0.3s ease;
+}
+.links .cards-wrapper .card .card-label {
+	font-size: 25px;
+	color: white;
+	position: relative;
+	z-index: 1;
+}
+
+.gift-guide {
+	padding: 90px 15px;
+	background-color: var(--pink);
+}
+.gift-guide .content-wrapper {
+	text-align: center;
+}
+.gift-guide .heading {
+	margin: 0;
+	line-height: 1;
+}
+.gift-guide .description {
+	font-size: 25px;
+	max-width: 750px;
+	margin: 50px auto 0 auto;
+	line-height: 1.5;
+}
+
+.dress-code {
+	padding: 90px 15px;
+	background-color: var(--background);
+}
+.dress-code .content-wrapper {
+	text-align: center;
+}
+.dress-code .heading {
+	margin: 0;
+	line-height: 1;
+}
+.dress-code .description {
+	font-size: 25px;
+	max-width: 750px;
+	margin: 50px auto 0 auto;
+	line-height: 1.5;
+}
+.dress-code-guide {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	column-gap: 100px;
 }
