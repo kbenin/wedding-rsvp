@@ -1,0 +1,63 @@
+.invitation {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.invitation .heading {
+    font-size: 130px;
+    color: var(--pink);
+    margin: 0;
+}
+.invitation .content {
+    color: var(--pink);
+    font-size: 25px;
+    line-height: 1.7;
+    margin-top: 0;
+}
+.invitation .link {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 21px;
+    text-decoration: underline;
+    color: var(--pink);
+}
+
+@media (max-width: 768px) {
+    .invitation .heading {
+        font-size: 80px;
+    }
+    .invitation .content,
+    .invitation .link {
+        color: var(--pink);
+        font-size: 20px;
+    }
+}
+@media (max-width: 375px) {
+    .invitation .heading {
+        font-size: 60px;
+    }
+    .invitation .content,
+    .invitation .link {
+        color: var(--pink);
+        font-size: 18px;
+    }
+}
+@media (max-width: 320px) {
+    .invitation .heading {
+        font-size: 50px;
+    }
+    .invitation .content,
+    .invitation .link {
+        color: var(--pink);
+        font-size: 16px;
+    }
+}

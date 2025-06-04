@@ -1,0 +1,33 @@
+:root {
+    --font-heading: 'Herr Von Muellerhoff', serif;
+    --font-body: 'Alice', serif;
+}
+
+@font-face {
+    font-family: 'Alice';
+    src: url('../fonts/alice/Alice-Regular.eot');
+    src: url('../fonts/alice/Alice-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/alice/Alice-Regular.woff2') format('woff2'),
+        url('../fonts/alice/Alice-Regular.woff') format('woff'),
+        url('../fonts/alice/Alice-Regular.ttf') format('truetype'),
+        url('../fonts/alice/Alice-Regular.svg#Alice-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Herr Von Muellerhoff';
+    src: url('../fonts/herr-von-muellerhoff/HerrVonMuellerhoff-Regular.eot');
+    src: url('../fonts/herr-von-muellerhoff/HerrVonMuellerhoff-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/herr-von-muellerhoff/HerrVonMuellerhoff-Regular.woff2') format('woff2'),
+        url('../fonts/herr-von-muellerhoff/HerrVonMuellerhoff-Regular.woff') format('woff'),
+        url('../fonts/herr-von-muellerhoff/HerrVonMuellerhoff-Regular.ttf') format('truetype'),
+        url('../fonts/herr-von-muellerhoff/HerrVonMuellerhoff-Regular.svg#HerrVonMuellerhoff-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+

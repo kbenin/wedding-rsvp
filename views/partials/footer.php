@@ -5,21 +5,16 @@
     </div>
     <footer class="footer">
         <div class="container">
-            <div class="footer-content-wrapper">
-                <div class="footer-logo-wrapper">
-                    <span>PHP - Store</span>
-                </div>
-                <nav class="footer-navbar">
-                    <ul>
-                        <li><a href="contact.php">Contact Us</a></li>
-                        <li><a href="help.php">Help</a></li>
-                        <li><a href="privacy-policy.php">Privacy Policy</a></li>
-                        <li><a href="terms-conditions.php">Terms and Conditions</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="copyright">&copy; 2023 PHP Store. All rights reserved.</div>
+            <div class="copyright">&copy; 2025 CodeMonkeys. All Rights Reserved.</div>
         </div>
     </footer>
+    <?php
+    // Define the base URL or path to your assets if needed
+    // In many setups, just a root-relative path like '/js/script.js' works fine.
+    $baseUrl = '/'; // Or 'http://localhost/my_php_site/'
+
+    // Link to your JavaScript file
+    echo '<script src="' . $baseUrl . 'js/script.js"></script>';
+    ?>
 </body>
 </html>

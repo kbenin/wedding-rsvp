@@ -1,13 +1,23 @@
 @import 'header.css';
+@import 'nav.css';
+@import 'banner.css';
+@import 'fonts.css';
 @import 'footer.css';
 @import 'home.css';
+@import 'invitation.css';
+
+:root {
+    --pink: #efc3ca;
+    --background: #ececec;
+}
 
 body {
+    background: var(--background);
     width: 100%;
     box-sizing: border-box; /* Include padding and border in the width */
     margin: 0;
     background: #f0f0f0;
-    font-family: 'Comic Sans MS';
+    font-family: var(--font-body);
     font-size: 1.2em;
     display: flex;
     flex-direction: column;
@@ -16,10 +26,29 @@ body {
 }
 *, *::before, *::after {
     box-sizing: border-box;
+    color: #000;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--font-heading);
+    font-weight: normal;
+}
+h1 {
+    font-size: 150px;
+}
+h2 {
+    font-size: 120px;
+}
+h3 {
+    font-size: 60px;
+}
+
+a {
+    transition: all 0.3s ease;
 }
 
 main {
-    flex-grow: 1;
+    margin-top: 61px;
 }
 
 .container {
