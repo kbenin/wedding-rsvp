@@ -1,0 +1,80 @@
+.featured-section ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+.featured-section ul li.game-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d2d2d2;
+    border-radius: 10px;
+    padding: 30px;
+    transition: all 0.3s ease;
+    width: 100%;
+    max-width: 32.33%;
+    position: relative;
+    overflow: hidden;
+}
+.featured-section ul li.game-item::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: #fff;
+    opacity: 0.85;
+}
+.featured-section ul li.game-item:hover {
+    transform: scale(0.98);
+}
+.featured-section ul li.game-item {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.featured-section ul li.game-item .content-wrapper {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.featured-section ul li.game-item h3 {
+    margin: 0 0 5px 0;
+    text-align: center;
+}
+.featured-section ul li.game-item .release-date {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.featured-section ul li.game-item .badge-wrapper {
+    display: flex;
+    gap: 5px;
+}
+.featured-section ul li.game-item .badge-wrapper span {
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: yellow;
+    background: black;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+.featured-section ul li.game-item .badge-wrapper span.base-game {
+    background: green;
+} 
+.featured-section ul li.game-item .badge-wrapper span.dlc {
+    background: red;
+}
+.featured-section ul li.game-item a.store-link {
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+}

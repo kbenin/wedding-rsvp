@@ -1,0 +1,29 @@
+@import 'header.css';
+@import 'footer.css';
+@import 'home.css';
+
+body {
+    width: 100%;
+    box-sizing: border-box; /* Include padding and border in the width */
+    margin: 0;
+    background: #f0f0f0;
+    font-family: 'Comic Sans MS';
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.container {
+    max-width: 1281px;
+    margin: 0 auto;
+}
+
