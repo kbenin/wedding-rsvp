@@ -1,0 +1,11 @@
+{
+    "headers": [
+      {
+        "source": "api/index.php",
+        "headers": [
+          { "key": "Content-Type", "value": "text/html" }
+          // ENSURE you don't have: { "key": "Content-Disposition", "value": "attachment" }
+        ]
+      }
+    ]
+  }
