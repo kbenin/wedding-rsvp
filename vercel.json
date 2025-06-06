@@ -1,11 +1,17 @@
 {
-    "headers": [
-      {
-        "source": "api/index.php",
-        "headers": [
-          { "key": "Content-Type", "value": "text/html" }
-          // ENSURE you don't have: { "key": "Content-Disposition", "value": "attachment" }
-        ]
-      }
-    ]
+    "version": 2,
+    "functions": {
+      "api/**/*.php": {
+        "runtime": "vercel-php@0.6.0"
+      },
+      "headers": [
+        {
+          "source": "api/index.php",
+          "headers": [
+            { "key": "Content-Type", "value": "text/html" }
+          ]
+        }
+      ]
+    },
+    "routes": []
   }
