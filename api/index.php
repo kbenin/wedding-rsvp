@@ -1,22 +1,17 @@
-<?php
+<?php 
 
-// Example: A simple "Hello, Vercel!"
-echo "Hello from native PHP on Vercel!";
+require 'functions.php';
+require 'router.php';
+require 'Database.php';
 
-// Example: Handle different routes
-$request_uri = $_SERVER['REQUEST_URI'];
+$config = require('config.php');
+$db = new Database($config['database']);
 
-if ($request_uri === '/api/hello') {
-    echo "<br>This is the hello API endpoint!";
-} elseif ($request_uri === '/api/data') {
-    header('Content-Type: application/json');
-    echo json_encode(['message' => 'Some data from PHP', 'timestamp' => time()]);
-} else {
-    // You can serve your main HTML/frontend here if it's dynamic
-    // Or redirect to your static frontend if it's purely an API
-    echo "<br>Welcome to your PHP app!";
-}
+$id = $_GET['id'];
+$query = "select * from posts where id = ?";
 
-// You can include other PHP files if needed
-// include 'another_file.php';
-?>
+$posts = $db->query($query, [$id])->fetch();
+ 
+// dd($posts);
+
+
