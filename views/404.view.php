@@ -1,19 +1,20 @@
 <?php require('partials/header.php'); ?>
 <?php require('partials/nav.php'); ?>
 
-<header class="bg-white shadow-sm">
-    <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-        <h1 class="text-3xl font-bold tracking-tight text-gray-900">Error 404</h1>
-    </div>
-</header>
-
 <main>
-    <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+    <section class="banner-inner" style="background-image:url('assets/images/banner-inner-venue.jpg');">
         <div class="container">
-            <h2>404</h2>
-            <p>Page not found.</p>
+            <h1 class="heading">Page not found</h1>
         </div>
-    </div>
+    </section>
+    <section class="main-content">
+        <div class="container">
+            <div class="inner-wrapper">
+                <h3 class="heading">Sorry, the page you are looking for does not exist.</h2>
+                <p class="description">You can go back to the <a href="/" class="link">homepage</a> or try searching for what you need.</p>
+            </div>
+        </div>
+    </section>
 </main>
 
 <?php require('partials/footer.php'); ?>

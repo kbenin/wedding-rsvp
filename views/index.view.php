@@ -29,13 +29,13 @@
     <section class="links">
         <div class="container">
             <div class="cards-wrapper">
-                <a href="#" class="card" style="background-image: url('assets/images/card-ceremony-reception.jpg');">
+                <a href="/ceremony-and-reception" class="card" style="background-image: url('assets/images/card-ceremony-reception.jpg');">
                     <p class="card-label">Ceremony & Reception</p>
                 </a>
-                <a href="#" class="card" style="background-image: url('assets/images/card-gallery.jpg');">
+                <a href="/gallery" class="card" style="background-image: url('assets/images/card-gallery.jpg');">
                     <p class="card-label">Gallery</p>
                 </a>
-                <a href="#" class="card" style="background-image: url('assets/images/card-entourage.jpg');">
+                <a href="/entourage" class="card" style="background-image: url('assets/images/card-entourage.jpg');">
                     <p class="card-label">Entourage</p>
                 </a>
             </div>
@@ -107,6 +107,17 @@
             <div class="note-wrapper">
                 <p class="note">WE ENCOURAGE YOU TO DRESS ACCORDING TO OUR COLOR THEME</p>
                 <span class="strictly">STRICTLY FORMAL</span>
+            </div>
+        </div>
+    </section>
+    <section class="rsvp" style="background-image: url('assets/images/rsvp-bg.jpg');">
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="card">
+                    <h2 class="heading">Will you be attending?</h2>
+                    <p>We have reserved seat/s for you. The favor of your reply is requested on or before September 18, 2025. Please confirm your attendance.</p>
+                    <a href="/rsvp" class="btn-link">RSVP</a>
+                </div>
             </div>
         </div>
     </section>

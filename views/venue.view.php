@@ -3,12 +3,14 @@
 <?php require('partials/banner.php'); ?>
 
 <main>
-    <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+    <section class="main-content">
         <div class="container">
-            <h2>Venue</h2>
-            <p>You are on contact page.</p>
+            <div class="inner-wrapper">
+                <h2 class="heading">Venue</h2>
+                <p class="description">You are on venue page.</p>
+            </div>
         </div>
-    </div>
+    </section>
 </main>
 
 <?php require('partials/footer.php'); ?>

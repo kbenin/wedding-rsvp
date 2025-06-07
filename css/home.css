@@ -2,6 +2,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	background-attachment: fixed;
 	min-height: 90vh;
 	display: flex;
 	flex-direction: row;
@@ -275,4 +276,45 @@
 .dress-code .note-wrapper .strictly {
 	font-weight: bold;
 	font-size: 25px;
+}
+
+.rsvp {
+	padding: 150px 15px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment: fixed;
+	position: relative;
+	min-height: 50vh;
+}
+.rsvp::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	background-color: #fff;
+	opacity: 0.4;
+}
+.rsvp .content-wrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+}
+.rsvp .content-wrapper .card {
+	padding: 90px 60px;
+	width: 600px;
+	background-color: #ffffff;
+	text-align: center;
+	position: relative;
+	border-radius: 10px;;
+}
+.rsvp .card h2 {
+	font-size: 70px;
+	line-height: 1.5;
+	margin: 0 0 20px 0;
+}
+.rsvp .card p {
+	font-size: 25px;
+	line-height: 1.5;
+	margin: 0 0 60px 0;
 }

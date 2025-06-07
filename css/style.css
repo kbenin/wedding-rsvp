@@ -5,54 +5,74 @@
 @import 'footer.css';
 @import 'home.css';
 @import 'invitation.css';
+@import '404.css';
+@import 'ceremony-reception.css';
 
 :root {
-    --pink: #efc3ca;
-    --background: #ececec;
+	--pink: #efc3ca;
+	--pink-dk:	#e2a5af;
+	--background: #ececec;
 }
 
 body {
-    background: var(--background);
-    width: 100%;
-    box-sizing: border-box; /* Include padding and border in the width */
-    margin: 0;
-    background: #f0f0f0;
-    font-family: var(--font-body);
-    font-size: 1.2em;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 100vh;
+	background: var(--background);
+	width: 100%;
+	box-sizing: border-box; /* Include padding and border in the width */
+	margin: 0;
+	background: #f0f0f0;
+	font-family: var(--font-body);
+	font-size: 1.2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100vh;
 }
 *, *::before, *::after {
-    box-sizing: border-box;
-    color: #000;
+	box-sizing: border-box;
+	color: #000;
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: var(--font-heading);
-    font-weight: normal;
+	font-family: var(--font-heading);
+	font-weight: normal;
 }
 h1 {
-    font-size: 150px;
+	font-size: 150px;
 }
 h2 {
-    font-size: 120px;
+	font-size: 120px;
 }
 h3 {
-    font-size: 60px;
+	font-size: 60px;
+	margin: 0;
+	line-height: 1.2;
 }
 
 a {
-    transition: all 0.3s ease;
+	transition: all 0.3s ease;
 }
 
 main {
-    margin-top: 61px;
+	margin-top: 61px;
 }
 
 .container {
-    max-width: 1281px;
-    margin: 0 auto;
+	max-width: 1281px;
+	margin: 0 auto;
 }
 
+.btn-link {
+  color: white;
+	background-color: var(--pink);
+	border-radius: 10px;
+	font-size: 25px;
+	text-decoration: none;
+	color: var(--font-body);
+	padding: 15px 60px;
+	border: 3px solid white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.btn-link:hover {
+	transition: all 0.3s ease;
+	background-color: var(--pink-dk);
+}
