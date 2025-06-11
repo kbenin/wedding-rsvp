@@ -1,3 +1,4 @@
+// ### WEDDING COUNTDOWN ###
 // Set the date we're counting down to
 const weddingDate = new Date("2025-10-19T13:00:00").getTime(); // Replace with your wedding date in valid format
 
@@ -25,3 +26,24 @@ const countdownFunction = setInterval(() => {
         document.querySelector(".countdown").innerHTML = "<h3 class='its-time'>That's a wrap!</h3>";
     }
 }, 1000);
+
+// ### FAQs - ACCORDION ###
+document.querySelectorAll('.accordion-header').forEach(header => {
+    header.addEventListener('click', () => {
+        const currentlyActiveHeader = document.querySelector('.accordion-header.active');
+        if (currentlyActiveHeader && currentlyActiveHeader !== header) {
+            currentlyActiveHeader.classList.remove('active');
+            currentlyActiveHeader.nextElementSibling.style.maxHeight = '0';
+            currentlyActiveHeader.nextElementSibling.style.padding = '0 15px';
+        }
+        header.classList.toggle('active');
+        const body = header.nextElementSibling;
+        if (header.classList.contains('active')) {
+            body.style.maxHeight = body.scrollHeight + 'px';
+            body.style.padding = '15px';
+        } else {
+            body.style.maxHeight = '0';
+            body.style.padding = '0 15px';
+        }
+    });
+});

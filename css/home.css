@@ -318,3 +318,24 @@
 	line-height: 1.5;
 	margin: 0 0 60px 0;
 }
+
+.faqs {
+  padding: 60px 15px;
+  background-color: var(--pink);
+}
+.faqs .heading {
+  text-align: center;
+  margin: 0 0 60px 0;
+}
+.faqs .faqs-wrapper {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: start;
+	justify-content: center;
+	column-gap: 30px;
+}
+.faqs .faqs-wrapper .left-wrapper,
+.faqs .faqs-wrapper .right-wrapper {
+  width: 50%;
+}

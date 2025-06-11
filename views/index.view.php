@@ -121,6 +121,73 @@
             </div>
         </div>
     </section>
+    <section class="faqs">
+        <div class="container">
+            <div class="row">
+                <div class="content-wrapper">
+                    <h2 class="heading">got questions?</h2>
+                    <div class="faqs-wrapper">
+                        <div class="left-wrapper">
+                            <div class="accordion">
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header">If you have questions and clarifications</h3>
+                                    <div class="accordion-body">
+                                        <p>Please do not hesitate to reach out to Paulyn (09669852996), Deric (09179849489) or to our professional coordinator (09564284975).</p>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header">What should I wear?</h3>
+                                    <div class="accordion-body">
+                                        <p>Long gown or cocktail dress for the ladies. Suit (preferably black) & tie for the gentlemen.<br><br>Please follow the color palette to help us achieve the look and feel that we've always wanted for our wedding. Please no loud colors, and strictly no white for ladies. No denim, shirt, shorts, flip-flops</p>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header">What time does the event start?</h3>
+                                    <div class="accordion-body">
+                                        <p>The event will start at 4 PM. Please arrive 30 minutes early.</p>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header">Can I bring a plus one?</h3>
+                                    <div class="accordion-body">
+                                        <p>Please refer to your RSVP for details regarding plus ones.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-wrapper">
+                            <div class="accordion">
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header">What is the dress code?</h3>
+                                    <div class="accordion-body">
+                                        <p>The dress code is strictly formal. We encourage you to dress according to our color theme.</p>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header">Where will the ceremony take place?</h3>
+                                    <div class="accordion-body">
+                                        <p>The ceremony will take place at the Grand Ballroom, City Hall.</p>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header">What time does the event start?</h3>
+                                    <div class="accordion-body">
+                                        <p>The event will start at 4 PM. Please arrive 30 minutes early.</p>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header">Can I bring a plus one?</h3>
+                                    <div class="accordion-body">
+                                        <p>Please refer to your RSVP for details regarding plus ones.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
 <?php require('partials/footer.php'); ?>

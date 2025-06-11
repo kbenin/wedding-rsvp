@@ -9,6 +9,7 @@ $routes = [
     '/gallery' => 'controllers/gallery.php',
     '/venue' => 'controllers/venue.php',
     '/ceremony-and-reception' => 'controllers/ceremony-and-reception.php',
+    '/rsvp' => 'controllers/rsvp.php',
 ];
 
 function routeToController($uri, $routes) {
