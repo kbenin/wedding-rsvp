@@ -29,21 +29,35 @@ const countdownFunction = setInterval(() => {
 
 // ### FAQs - ACCORDION ###
 document.querySelectorAll('.accordion-header').forEach(header => {
+    // Add open/close icon span if not present
+    if (!header.querySelector('.accordion-icon')) {
+        const icon = document.createElement('span');
+        icon.className = 'accordion-icon';
+        icon.innerHTML = '+'; // Closed by default
+        header.appendChild(icon);
+    }
+
     header.addEventListener('click', () => {
         const currentlyActiveHeader = document.querySelector('.accordion-header.active');
         if (currentlyActiveHeader && currentlyActiveHeader !== header) {
             currentlyActiveHeader.classList.remove('active');
             currentlyActiveHeader.nextElementSibling.style.maxHeight = '0';
             currentlyActiveHeader.nextElementSibling.style.padding = '0 15px';
+            // Set icon to closed
+            const icon = currentlyActiveHeader.querySelector('.accordion-icon');
+            if (icon) icon.innerHTML = '+';
         }
         header.classList.toggle('active');
         const body = header.nextElementSibling;
+        const icon = header.querySelector('.accordion-icon');
         if (header.classList.contains('active')) {
             body.style.maxHeight = body.scrollHeight + 'px';
-            body.style.padding = '15px';
+            body.style.padding = '0 15px 30px 15px';
+            if (icon) icon.innerHTML = '−'; // Open
         } else {
             body.style.maxHeight = '0';
             body.style.padding = '0 15px';
+            if (icon) icon.innerHTML = '+';
         }
     });
 });

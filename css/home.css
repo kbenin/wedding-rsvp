@@ -60,6 +60,56 @@
 	margin: 0;
 }
 
+.about-couple {
+	padding: 90px 15px;
+}
+.about-couple .content-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+ 	align-items: center;
+	flex-wrap: nowrap;
+}
+.abt-card {
+	background-color: var(--pink-lt);
+	padding: 30px;
+}
+.abt-card.left-wrapper {
+	text-align: right;
+	padding-right: 85px;
+	width: 30%;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;;
+}
+.holder.center-wrapper {
+	width: 33%;
+}
+.holder.center-wrapper .img-holder {
+	padding: 270px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 15px solid var(--background);
+	border-radius: 100%;
+	position: relative;
+	z-index: 1;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.abt-card.right-wrapper {
+ 	text-align: left;
+	padding-left: 85px;
+	width: 30%;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+.holder {
+	width: 33%;
+}
+.holder p {
+	line-height: 1.5;
+}
+
 .links {
 	/* background-color: var(--background); */
 	background-color: white;
@@ -321,7 +371,7 @@
 
 .faqs {
   padding: 60px 15px;
-  background-color: var(--pink);
+  background-color: var(--pink-lt);
 }
 .faqs .heading {
   text-align: center;

@@ -1,0 +1,7 @@
+# Enable RewriteEngine
+RewriteEngine On
+
+# Redirect all requests to index.php (for a typical single-page app or router)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?route=$1 [L,QSA]

@@ -26,6 +26,23 @@
             </ul>
         </div>
     </section>
+    <section class="about-couple">
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="holder abt-card left-wrapper">
+                    <h3>The Bride</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam obcaecati quos cum illo voluptates at veniam laudantium nulla autem, excepturi animi aperiam consectetur.</p>
+                </div>
+                <div class="holder center-wrapper">
+                    <div class="img-holder" style="background-image: url('assets/images/card-gallery.jpg');"></div>
+                </div>
+                <div class="holder abt-card right-wrapper">
+                    <h3>The Groom</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptatum. Quisquam, cumque. Doloribus, voluptatum. Quisquam, cumque. Doloribus, voluptatum. Quisquam, cumque.</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="links">
         <div class="container">
             <div class="cards-wrapper">
@@ -142,15 +159,21 @@
                                     </div>
                                 </div>
                                 <div class="accordion-item">
-                                    <h3 class="accordion-header">What time does the event start?</h3>
+                                    <h3 class="accordion-header">What time should I arrive?</h3>
                                     <div class="accordion-body">
-                                        <p>The event will start at 4 PM. Please arrive 30 minutes early.</p>
+                                        <p>The ceremony starts at 1:30PM and ends at 3PM followed by a photo ops session. Registration at the reception garden starts at 4PM wherein a grazing table awaits our guests. During this time, enjoy the ambiance that Hacienda Solange Garden has to offer   while waiting for the program to start at 5PM.<br><br><i><strong>NOTE: Reception area is 20-25 minutes away from the ceremony area.</strong></i></p>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
-                                    <h3 class="accordion-header">Can I bring a plus one?</h3>
+                                    <h3 class="accordion-header">Can we bring our kids?</h3>
                                     <div class="accordion-body">
-                                        <p>Please refer to your RSVP for details regarding plus ones.</p>
+                                        <p>With love and respect, we adore your little ones, but we kindly request that our wedding be an adults-only celebration. We hope you understand and still feel warmly welcomed to celebrate with us. We’re looking forward to seeing you there!</p>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header">Can I bring a date / plus one with me?</h3>
+                                    <div class="accordion-body">
+                                        <p>Please note that the number of guests allocated to you has been indicated on the invitation. We kindly ask for your understanding, as we are working within the limitations of our venue capacity and seats.</p>
                                     </div>
                                 </div>
                             </div>
@@ -158,27 +181,37 @@
                         <div class="right-wrapper">
                             <div class="accordion">
                                 <div class="accordion-item">
-                                    <h3 class="accordion-header">What is the dress code?</h3>
+                                    <h3 class="accordion-header">Do we really need to RSVP?</h3>
                                     <div class="accordion-body">
-                                        <p>The dress code is strictly formal. We encourage you to dress according to our color theme.</p>
+                                        <p>Yes. This will help us finalize the headcount for catering and seating arrangement. Please confirm by responding to our RSVP on this e-invitation page on or before September 18th.</p>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
-                                    <h3 class="accordion-header">Where will the ceremony take place?</h3>
+                                    <h3 class="accordion-header">I had initially RSVP’d ‘Yes,’ but unfortunately, I’m now unable to attend.</h3>
                                     <div class="accordion-body">
-                                        <p>The ceremony will take place at the Grand Ballroom, City Hall.</p>
+                                        <p>We understand that there may be unforeseen changes in circumstances, we ask that you let us or our coordinator (09564284975) know as soon as possible so we may reallocate your seat(s) accordingly.</p>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
-                                    <h3 class="accordion-header">What time does the event start?</h3>
+                                    <h3 class="accordion-header">Is there parking at the venue?</h3>
                                     <div class="accordion-body">
-                                        <p>The event will start at 4 PM. Please arrive 30 minutes early.</p>
+                                        <p>Yes, there is allocated parking available at both venues:</p>
+                                        <ul>
+                                            <li>Chapel on the Hill (Ceremony)</li> 
+                                            <li>Hacienda Solange (Reception)</li>
+                                        </ul>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
-                                    <h3 class="accordion-header">Can I bring a plus one?</h3>
+                                    <h3 class="accordion-header">Do you have a gift preference?</h3>
                                     <div class="accordion-body">
-                                        <p>Please refer to your RSVP for details regarding plus ones.</p>
+                                        <p>Your presence at our wedding is the greatest gift of all.  Should you wish to honor us with a gift, a contribution to our savings or honeymoon fund would be sincerely appreciated.</p>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header">Am I allowed to take pictures and videos during the ceremony?</h3>
+                                    <div class="accordion-body">
+                                        <p>We kindly ask that you join us in creating a truly meaningful ceremony by being fully present and refraining from using gadgets or taking photos during the service. Most   importantly, DO NOT BLOCK the view of our hired professional photo and video team during the entourage procession especially during the bridal march.<br><br>Rest assured, we’ve arranged for professional photographers to beautifully capture the most important moments, and we will gladly share these with you after the event.<br><br>Following the ceremony, feel free to take as many photos as you like! We would love for you to share your snapshots on social media using our official wedding hashtag:</p>
                                     </div>
                                 </div>
                             </div>
@@ -191,3 +224,4 @@
 </main>
 
 <?php require('partials/footer.php'); ?>
+    

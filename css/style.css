@@ -10,6 +10,7 @@
 
 :root {
 	--pink: #efc3ca;
+	--pink-lt: #eecdd2;
 	--pink-dk:	#e2a5af;
 	--background: #ececec;
 }
@@ -77,34 +78,41 @@ main {
 	background-color: var(--pink-dk);
 }
 
-.accordion {
-	border: 1px solid #ccc;
-	border-radius: 5px;
-}
 .accordion-item {
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #000;
+}
+.accordion-icon {
+	margin-left: 20px;
 }
 .accordion-header {
-	padding: 15px;
+	padding: 30px 15px;
 	cursor: pointer;
-	background-color: #f1f1f1;
+	background-color:transparent;
 	transition: background-color 0.3s;
+	font-size: 25px;
+	font-family: var(--font-body);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
 }
-.accordion-header:hover {
-	background-color: #e2e2e2;
+.accordion-header:hover,
+.accordion-header.active {
+	background-color: var(--pink-dk);
 }
 .accordion-body {
 	max-height: 0;
 	overflow: hidden;
 	padding: 0 15px;
-	background-color: #fff;
+	background-color: var(--pink-dk);
 	transition: max-height 0.3s ease-out, padding 0.3s ease-out;
 }
 .accordion-header.active + .accordion-body {
 	/* max-height: 500px;  */
 	min-height: fit-content;
-	padding: 15px;
+	padding: 60px 15px;
 }
 .accordion-body p {
 	margin: 0;
+	line-height: 1.5;
 }
