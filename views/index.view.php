@@ -1,5 +1,4 @@
-<?php require('partials/header.php'); ?>
-<?php require('partials/nav.php'); ?>
+<?php require('partials/header.php'); ?>    
 
 <main>
     <section class="banner" style="background-image:url('assets/images/banner-img.jpg');">
@@ -52,7 +51,7 @@
             </div>
         </div>
     </section>
-    <section class="timeline">
+    <section class="timeline" style="background-image: url('assets/images/bg-about-couple.png');">
         <div class="container">
             <div class="content-wrapper">
                 <h2 class="heading">How we meet?</h2>
@@ -60,36 +59,63 @@
                     <div class="left-wrapper image" style="background-image: url('assets/images/banner-inner-venue.jpg');">
                     </div>
                     <div class="right-wrapper content">
-                        <h3 class="timeline-heading">Our First Meeting</h3>
-                        <p class="date">January 1, 2020</p>
-                        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptatum. Quisquam, cumque. Doloribus, voluptatum. Quisquam, cumque. Doloribus, voluptatum. Quisquam, cumque.</p>
+                        <span class="date">February 2020</span>
+                        <h3 class="timeline-heading">It all began with a glance</h3>
+                        <p class="description">The first time we saw each other on her very first day at the airport. A simple moment that seemed ordinary, but would soon change our lives.</p>
                     </div>
                 </div>
                 <div class="timeline-content even">
                     <div class="left-wrapper image" style="background-image: url('assets/images/banner-inner-venue.jpg');">
                     </div>
                     <div class="right-wrapper content">
-                        <h3 class="timeline-heading">Our First Meeting</h3>
-                        <p class="date">January 1, 2020</p>
-                        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptatum. Quisquam, cumque. Doloribus, voluptatum. Quisquam, cumque. Doloribus, voluptatum. Quisquam, cumque.</p>
+                        <span class="date">March 2020</span>
+                        <h3 class="timeline-heading">Amid the rush of airport life</h3>
+                        <p class="description">We started sharing small conversations — quick hellos that slowly turned into something more, just before the world came to a pause.</p>
                     </div>
                 </div>
                 <div class="timeline-content odd">
                     <div class="left-wrapper image" style="background-image: url('assets/images/banner-inner-venue.jpg');">
                     </div>
                     <div class="right-wrapper content">
-                        <h3 class="timeline-heading">Our First Meeting</h3>
-                        <p class="date">January 1, 2020</p>
-                        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptatum. Quisquam, cumque. Doloribus, voluptatum. Quisquam, cumque. Doloribus, voluptatum. Quisquam, cumque.</p>
+                        <span class="date">April – September 2020</span>
+                        <h3 class="timeline-heading">As the world slowed down</h3>
+                        <p class="description">We grew closer. Through chats, video calls, and quiet moments from afar, we got to know each other deeply — building a connection that only grew stronger with time.</p>
                     </div>
                 </div>
                 <div class="timeline-content even">
                     <div class="left-wrapper image" style="background-image: url('assets/images/banner-inner-venue.jpg');">
                     </div>
                     <div class="right-wrapper content">
-                        <h3 class="timeline-heading">Our First Meeting</h3>
-                        <p class="date">January 1, 2020</p>
-                        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptatum. Quisquam, cumque. Doloribus, voluptatum. Quisquam, cumque. Doloribus, voluptatum. Quisquam, cumque.</p>
+                        <span class="date">September 2020</span>
+                        <h3 class="timeline-heading">Our first date</h3>
+                        <p class="description">Finally! After months of waiting, she said yes, and we saw each other again for the first time since the lockdowns began. That day was the start of something truly unforgettable.</p>
+                    </div>
+                </div>
+                <div class="timeline-content odd">
+                    <div class="left-wrapper image" style="background-image: url('assets/images/banner-inner-venue.jpg');">
+                    </div>
+                    <div class="right-wrapper content">
+                        <span class="date">October 2020</span>
+                        <h3 class="timeline-heading">With hearts full of love and certainty</h3>
+                        <p class="description">We became official — choosing each other, and embracing everything that lay ahead.</p>
+                    </div>
+                </div>
+                <div class="timeline-content even">
+                    <div class="left-wrapper image" style="background-image: url('assets/images/banner-inner-venue.jpg');">
+                    </div>
+                    <div class="right-wrapper content">
+                        <span class="date">March 2024</span>
+                        <h3 class="timeline-heading">On the white sands of Boracay</h3>
+                        <p class="description">Under the sun and sky, one question was asked… and with the sweetest “yes,” a new chapter of our love story began.</p>
+                    </div>
+                </div>
+                <div class="timeline-content odd">
+                    <div class="left-wrapper image" style="background-image: url('assets/images/banner-inner-venue.jpg');">
+                    </div>
+                    <div class="right-wrapper content">
+                        <span class="date">October 19, 2025</span>
+                        <h3 class="timeline-heading">Our wedding day</h3>
+                        <p class="description">A celebration of love, family, and the beautiful journey that brought us here. We can’t wait to celebrate this day with you.</p>
                     </div>
                 </div>
             </div>
@@ -98,7 +124,7 @@
     <section class="links" style="background-image: url('assets/images/bg-about-couple.png');">
         <div class="container">
             <div class="cards-wrapper">
-                <a href="/ceremony-and-reception" class="card" style="background-image: url('assets/images/card-ceremony-reception.jpg');">
+                <a href="/venue" class="card" style="background-image: url('assets/images/card-ceremony-reception.jpg');">
                     <p class="card-label">Ceremony & Reception</p>
                 </a>
                 <a href="/gallery" class="card" style="background-image: url('assets/images/card-gallery.jpg');">
@@ -275,5 +301,4 @@
     </section>
 </main>
 
-<?php require('partials/footer.php'); ?>
-    
+<?php require('partials/footer.php'); ?>    

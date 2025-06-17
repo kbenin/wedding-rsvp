@@ -10,9 +10,34 @@
 	align-items: center;
 	column-gap: 50px;
 }
+.navigation-menu .menu-wrapper {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+	margin: 0;
+}
 .navigation-menu a {
 	text-decoration: none;
 }
 .navigation-menu a:hover {
 	color: var(--pink); 
+}
+.mobile-menu {
+	display: none;
+}
+@media (max-width: 767px) {
+	.header-desktop {
+		display: none;
+	}
+	.mobile-menu {
+		display: none;
+	}
+	.navigation-menu .menu-wrapper {
+		flex-wrap: wrap;
+	}
 }
