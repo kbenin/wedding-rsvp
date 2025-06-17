@@ -26,7 +26,7 @@
             </ul>
         </div>
     </section>
-    <section class="about-couple">
+    <section class="about-couple" style="background-image: url('assets/images/bg-about-couple.png');">
         <div class="container">
             <div class="content-wrapper">
                 <div class="holder abt-card left-wrapper">
@@ -43,7 +43,59 @@
             </div>
         </div>
     </section>
-    <section class="links">
+    <section class="our-story" style="background-image: url('assets/images/invitation.jpg');">
+        <div class="container">
+            <div class="content-wrapper">
+                <h2 class="heading">Our Story</h2>
+                <h3 class="sub-heading">They Said It's Ethereal, We Say It's Eternal</h3>
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ab rerum excepturi possimus dolorum. Ea, dolore! Dolore officia, animi distinctio porro praesentium similique, culpa incidunt nostrum nulla reiciendis, vel maiores.</p>
+            </div>
+        </div>
+    </section>
+    <section class="timeline">
+        <div class="container">
+            <div class="content-wrapper">
+                <h2 class="heading">How we meet?</h2>
+                <div class="timeline-content odd">
+                    <div class="left-wrapper image" style="background-image: url('assets/images/banner-inner-venue.jpg');">
+                    </div>
+                    <div class="right-wrapper content">
+                        <h3 class="timeline-heading">Our First Meeting</h3>
+                        <p class="date">January 1, 2020</p>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptatum. Quisquam, cumque. Doloribus, voluptatum. Quisquam, cumque. Doloribus, voluptatum. Quisquam, cumque.</p>
+                    </div>
+                </div>
+                <div class="timeline-content even">
+                    <div class="left-wrapper image" style="background-image: url('assets/images/banner-inner-venue.jpg');">
+                    </div>
+                    <div class="right-wrapper content">
+                        <h3 class="timeline-heading">Our First Meeting</h3>
+                        <p class="date">January 1, 2020</p>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptatum. Quisquam, cumque. Doloribus, voluptatum. Quisquam, cumque. Doloribus, voluptatum. Quisquam, cumque.</p>
+                    </div>
+                </div>
+                <div class="timeline-content odd">
+                    <div class="left-wrapper image" style="background-image: url('assets/images/banner-inner-venue.jpg');">
+                    </div>
+                    <div class="right-wrapper content">
+                        <h3 class="timeline-heading">Our First Meeting</h3>
+                        <p class="date">January 1, 2020</p>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptatum. Quisquam, cumque. Doloribus, voluptatum. Quisquam, cumque. Doloribus, voluptatum. Quisquam, cumque.</p>
+                    </div>
+                </div>
+                <div class="timeline-content even">
+                    <div class="left-wrapper image" style="background-image: url('assets/images/banner-inner-venue.jpg');">
+                    </div>
+                    <div class="right-wrapper content">
+                        <h3 class="timeline-heading">Our First Meeting</h3>
+                        <p class="date">January 1, 2020</p>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptatum. Quisquam, cumque. Doloribus, voluptatum. Quisquam, cumque. Doloribus, voluptatum. Quisquam, cumque.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="links" style="background-image: url('assets/images/bg-about-couple.png');">
         <div class="container">
             <div class="cards-wrapper">
                 <a href="/ceremony-and-reception" class="card" style="background-image: url('assets/images/card-ceremony-reception.jpg');">
@@ -70,7 +122,7 @@
             </div>
         </div>
     </section>
-    <section class="dress-code">
+    <section class="dress-code" style="background-image: url('assets/images/bg-about-couple.png');">
         <div class="container">
             <div class="content-wrapper">
                 <h2 class="heading">dress code</h2>
