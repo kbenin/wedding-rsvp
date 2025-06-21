@@ -3,7 +3,7 @@
             </div>
         </main>
     </div>
-    <footer class="footer">
+    <footer class="footer" style="background-image: url('assets/images/bg-about-couple.png');">
         <div class="container">
             <div class="copyright">&copy; 2025 CodeMonkeys. All Rights Reserved.</div>
         </div>

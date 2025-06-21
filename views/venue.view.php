@@ -1,9 +1,8 @@
 <?php require('partials/header.php'); ?>
-<?php require('partials/nav.php'); ?>
 <?php require('partials/banner.php'); ?>
 
 <main>
-<section class="ceremony-and-reception">
+    <section class="ceremony-and-reception">
         <div class="container">
             <div class="inner-wrapper">
                 <div class="left-wrapper">

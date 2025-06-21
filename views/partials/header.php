@@ -19,11 +19,11 @@
             </div>
             <div class="right-wrapper">
                 <button id="btnMobileMenu">Toggle</button>
-                <aside id="mobileMenu" class="mobile-menu">
-                    <?php require('nav.php'); ?>
-                </aside>
             </div>
         </div>
+        <aside class="mobile-menu" id="mobileMenu">
+            <?php require('nav.php'); ?>
+        </aside>
         <script>
             document.getElementById("btnMobileMenu").addEventListener("click", showMobileMenu);
 

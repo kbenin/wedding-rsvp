@@ -1,5 +1,5 @@
 <?php require('partials/header.php'); ?>
-<?php require('partials/nav.php'); ?>
+<?php require('partials/banner.php'); ?>
 
 <main>
     <section class="banner-inner" style="background-image:url('assets/images/banner-inner-venue.jpg');">

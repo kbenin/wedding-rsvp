@@ -216,7 +216,7 @@
             </div>
         </div>
     </section>
-    <section class="faqs">
+    <section class="faqs" style="background-image: url('assets/images/bg-about-couple.png');">
         <div class="container">
             <div class="row">
                 <div class="content-wrapper">

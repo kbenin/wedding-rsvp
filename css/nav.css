@@ -1,4 +1,4 @@
-.navigation-menu {
+.header-desktop > .navigation-menu {
 	position: fixed;
 	z-index: 10;
 	width: 100%;
@@ -7,10 +7,14 @@
 	padding: 20px 15px;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: start;
 	column-gap: 50px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
-.navigation-menu .menu-wrapper {
+.header-desktop > .navigation-menu .menu-wrapper {
 	list-style: none;
 	padding: 0;
 	display: flex;
@@ -27,16 +31,7 @@
 .navigation-menu a:hover {
 	color: var(--pink); 
 }
-.mobile-menu {
-	display: none;
-}
-.mobile-menu .navigation-menu {
-	position: absolute;
-	top: 53px;
-	left: 0;
-	right: 0;
-	bottom: 0;
-}
+
 .header-mobile {
 	display: flex;
 	justify-content: space-between;
@@ -45,9 +40,28 @@
 	flex-wrap: nowrap;
 	padding: 15px;
 }
-.header-mobile .mobile-menu .navigation-menu .menu-wrapper {
+.mobile-menu {
+	display: none;
+	position: absolute;
+	inset: 0;
+    background: white;
+    z-index: 2;
+	padding: 60px 15px;
+}
+.mobile-menu .navigation-menu {
+	width: 100%;
+}
+.mobile-menu .navigation-menu .menu-wrapper {
 	display: flex;
 	flex-direction: column;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+@media (min-width: 768px) {
+	.header-mobile {
+		display: none;
+	}
 }
 @media (max-width: 767px) {
 	.header-desktop {

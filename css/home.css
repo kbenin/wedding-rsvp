@@ -515,7 +515,11 @@
 
 .faqs {
   padding: 60px 15px;
-  background-color: var(--pink-lt);
+  /* background-color: var(--pink-lt); */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 .faqs .heading {
   text-align: center;
