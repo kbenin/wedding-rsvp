@@ -58,6 +58,11 @@ a {
 main {
 	margin-top: 61px;
 }
+@media (max-width: 767px) {
+	main {
+		margin-top: 0;
+	}
+}
 
 .container {
 	max-width: 1281px;

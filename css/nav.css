@@ -30,6 +30,25 @@
 .mobile-menu {
 	display: none;
 }
+.mobile-menu .navigation-menu {
+	position: absolute;
+	top: 53px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.header-mobile {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	padding: 15px;
+}
+.header-mobile .mobile-menu .navigation-menu .menu-wrapper {
+	display: flex;
+	flex-direction: column;
+}
 @media (max-width: 767px) {
 	.header-desktop {
 		display: none;

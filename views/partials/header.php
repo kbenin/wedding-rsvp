@@ -25,10 +25,14 @@
             </div>
         </div>
         <script>
-            document.getElementById("btnMobileMenu").addEventListener("click", showMobileMenu)
+            document.getElementById("btnMobileMenu").addEventListener("click", showMobileMenu);
 
             const mobileMenuToggle = document.getElementById("mobileMenu");
             function showMobileMenu() {
-                mobileMenuToggle.style.display = "flex";
+                if (mobileMenuToggle.style.display === "flex") {
+                    mobileMenuToggle.style.display = "none";
+                } else {
+                    mobileMenuToggle.style.display = "flex";
+                }
             }
         </script>
