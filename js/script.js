@@ -17,15 +17,23 @@ const countdownFunction = setInterval(() => {
 
     // Display the result in the respective elements
     for (const [unit, value] of Object.entries(timeUnits)) {
-        document.getElementById(unit).innerHTML = value;
+        const element = document.getElementById(unit);
+        if (element) { // Check if the element exists
+            element.innerHTML = value;
+        }
     }
 
     // If the countdown is over, display a message
     if (distance < 0) {
         clearInterval(countdownFunction);
-        document.querySelector(".countdown").innerHTML = "<h3 class='its-time'>That's a wrap!</h3>";
+        const countdownElement = document.querySelector(".countdown");
+        if (countdownElement) { // Check if the element exists
+            countdownElement.innerHTML = "<h3 class='its-time'>That's a wrap!</h3>";
+        }
     }
 }, 1000);
+
+
 
 // ### FAQs - ACCORDION ###
 document.querySelectorAll('.accordion-header').forEach(header => {

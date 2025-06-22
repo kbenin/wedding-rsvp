@@ -1,5 +1,4 @@
 .banner-inner {
-	margin-top: 61px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -18,7 +17,6 @@
 	inset: 0;
 	content: '';
 	background-color: #000;
-	/* background-color: var(--background); */
 	opacity: 0.4;
 }
 .banner-inner .container {
@@ -29,4 +27,10 @@
 	color: var(--pink);
 	font-size: 130px;
 	margin: 0;
+	text-align: center;
+}
+@media (min-width: 768px) {
+	.banner-inner {
+		margin-top: 104px
+	}
 }

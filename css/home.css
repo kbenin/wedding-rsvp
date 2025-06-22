@@ -31,7 +31,8 @@
 }
 .banner .event-description {
 	color: white;
-	font-size: 16px;
+	font-size: 20px;
+	line-height: 1.5;
 }
 .banner .countdown {
 	color: white;
@@ -143,7 +144,7 @@
 	left: 0;
 	border: 25px solid var(--pink);
 	padding: 200px 150px;
-	z-index: 0;
+	z-index: -1;
 	opacity: 0.4;
 }
 .our-story .content-wrapper .heading {
@@ -195,23 +196,30 @@
 .timeline .timeline-content::before {
 	content: '';
 	position: absolute;
-	top: -40px;
-	bottom: -40px;
-	background-color: #000;
+	top: -30px;
+	bottom: -30px;
+	background-color: var(--pink-dk);
 	width: 1px;
 	left: 50%;
 	transform: translateX(-50%);
 }
 .timeline .timeline-content::after {
+	mask-image: url('../assets/images/heart.svg');
+	background-color: var(--pink);
 	content: '';
 	position: absolute;
 	top: 45%;
-	padding: 10px;
-	background-color: pink;
+	padding: 15px;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	border-radius: 100px;
-	border: 3px dotted white;
+}
+.timeline .timeline-content.odd .image {
+	border: 15px solid pink;
+	border-top-right-radius: 150px;
+}
+.timeline .timeline-content.even .image {
+	border: 15px solid pink;
+	border-top-left-radius: 150px;
 }
 .timeline .timeline-content .image {
 	background-size: cover;
@@ -317,8 +325,6 @@
 	padding: 60px;
 	width: 50%;
 	z-index: 1;
-	border-left: 8px solid #c1afb2;
-	border-bottom: 8px solid #c1afb2;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .gift-guide .content-wrapper .right-wrapper {
@@ -367,12 +373,13 @@
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
+	align-items: flex-start;
 	justify-content: space-between;
 	column-gap: 30px;
 	margin-top: 60px;
 }
 .dress-code-guide .heading {
-	margin: 0 0 30px 0;
+	margin: 0 0 10px 0;
 	line-height: 1.5;
 }
 .dress-code-guide .principal-sponsors, 
@@ -400,34 +407,19 @@
 .dress-code-guide .guests .card {
 	text-align: center;
 	border: 1px solid #000;
-	padding: 120px 30px;
 	width: 48%;
-	background-position: center;
+	padding: 15px 15px 30px 15px;
+}
+.dress-code-guide .card .card-image {
+	padding: 160px 0;
 	background-size: cover;
 	background-repeat: no-repeat;
-	position: relative;
-	color: white;
-}
-.dress-code-guide .card::before {
-	content: '';
-	position: absolute;
-	inset: 0;
-	background-color: #000;
-	opacity: 0.6;
-}
-.dress-code-guide .card .card-content {
-	position: relative;
-	z-index: 1;
-}
-.dress-code-guide .card .card-title,
-.dress-code-guide .card p,
-.dress-code-guide .card .note {
-	color: #fff;
+	background-position: center;
 }
 .dress-code-guide .card .card-title {
-	font-size: 60px;
-	line-height: 1.5;
-	margin: 0 0 60px 0;
+    font-size: 40px;
+    line-height: 1.5;
+    margin: 20px 0 10px 0;
 }
 .dress-code-guide .card p {
 	margin: 0;
@@ -465,7 +457,7 @@
 }
 .dress-code .note-wrapper {
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 60px;
 }
 .dress-code .note-wrapper .strictly {
 	font-weight: bold;
@@ -495,7 +487,7 @@
 	justify-content: flex-end;
 }
 .rsvp .content-wrapper .card {
-	padding: 90px 60px;
+	padding: 90px 30px;
 	width: 600px;
 	background-color: #ffffff;
 	text-align: center;
@@ -515,7 +507,21 @@
 
 .faqs {
   padding: 60px 15px;
-  background-color: var(--pink-lt);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+	position: relative;
+}
+.faqs::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	background-color: white;
+	opacity: 0.5;
+}
+.faqs .content-wrapper {
+	position: relative;
 }
 .faqs .heading {
   text-align: center;

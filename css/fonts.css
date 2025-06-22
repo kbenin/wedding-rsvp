@@ -1,8 +1,11 @@
 :root {
     --font-heading: 'Herr Von Muellerhoff', serif;
     --font-body: 'Alice', serif;
+    --fa-free: 'Font Awesome 6 Free', sans-serif;
+    --fa-brands: 'Font Awesome 6 Brands', sans-serif;
 }
 
+/** Alice **/
 @font-face {
     font-family: 'Alice';
     src: url('../fonts/alice/Alice-Regular.eot');
@@ -16,6 +19,7 @@
     font-display: swap;
 }
 
+/** Herr Von Muellerhoff **/
 @font-face {
     font-family: 'Herr Von Muellerhoff';
     src: url('../fonts/herr-von-muellerhoff/HerrVonMuellerhoff-Regular.eot');
@@ -29,5 +33,44 @@
     font-display: swap;
 }
 
+/** Font Awesome 6 **/
+@font-face {
+    font-family: 'Font Awesome 6 Free';
+    src: url('../fonts/fontawesome/FontAwesome6Free-Regular.eot');
+    src: url('../fonts/fontawesome/FontAwesome6Free-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fontawesome/FontAwesome6Free-Regular.woff2') format('woff2'),
+        url('../fonts/fontawesome/FontAwesome6Free-Regular.woff') format('woff'),
+        url('../fonts/fontawesome/FontAwesome6Free-Regular.ttf') format('truetype'),
+        url('../fonts/fontawesome/FontAwesome6Free-Regular.svg#FontAwesome6Free-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Font Awesome 6 Brands';
+    src: url('../fonts/fontawesome/FontAwesome6Brands-Regular.eot');
+    src: url('../fonts/fontawesome/FontAwesome6Brands-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fontawesome/FontAwesome6Brands-Regular.woff2') format('woff2'),
+        url('../fonts/fontawesome/FontAwesome6Brands-Regular.woff') format('woff'),
+        url('../fonts/fontawesome/FontAwesome6Brands-Regular.ttf') format('truetype'),
+        url('../fonts/fontawesome/FontAwesome6Brands-Regular.svg#FontAwesome6Brands-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Font Awesome 6 Free';
+    src: url('../fonts/fontawesome/FontAwesome6Free-Solid.eot');
+    src: url('../fonts/fontawesome/FontAwesome6Free-Solid.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fontawesome/FontAwesome6Free-Solid.woff2') format('woff2'),
+        url('../fonts/fontawesome/FontAwesome6Free-Solid.woff') format('woff'),
+        url('../fonts/fontawesome/FontAwesome6Free-Solid.ttf') format('truetype'),
+        url('../fonts/fontawesome/FontAwesome6Free-Solid.svg#FontAwesome6Free-Solid') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 
