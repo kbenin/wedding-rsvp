@@ -29,6 +29,9 @@
 	margin: 0;
 	text-align: center;
 }
+.page-rsvp .banner-inner .heading {
+	font-size: 80px;
+}
 @media (min-width: 768px) {
 	.banner-inner {
 		margin-top: 104px

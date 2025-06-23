@@ -32,8 +32,8 @@
 	gap: 30px;
 	margin: 0;
 }
-.header-desktop .inner-wrapper > .menu-wrapper .navigation-menu .menu-wrapper li a.active {
-	color: var(--pink);
+.header-desktop .inner-wrapper > .menu-wrapper .navigation-menu .menu-wrapper li a.link.active {
+	color: var(--pink-dk);
 }
 .header-mobile .logo {
 	background-position: center;
@@ -41,11 +41,11 @@
 	background-repeat: no-repeat;
 	padding: 35px;
 }
-.navigation-menu a {
+.navigation-menu a.link {
 	text-decoration: none;
 	font-size: 21px;
 }
-.navigation-menu a:hover {
+.navigation-menu a.link:hover {
 	color: var(--pink); 
 }
 .mobile-menu {
@@ -102,8 +102,8 @@
 .mobile-menu .inner-wrapper .navigation-menu ul li a {
 	font-size: 30px;
 }
-.mobile-menu .inner-wrapper .navigation-menu ul li a.active {
-	color: var(--pink);
+.mobile-menu .inner-wrapper .navigation-menu ul li a.link.active {
+	color: var(--pink-dk);
 }
 @media (min-width: 768px) {
 	.header-mobile {

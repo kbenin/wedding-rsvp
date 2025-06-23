@@ -36,7 +36,7 @@
 	padding: 20px;
 }	
 .ceremony-and-reception .slider {
-	border: 15px solid var(--pink);
+	border: 10px solid var(--pink);
 }
 .ceremony-and-reception .details-wrapper {
 	display: flex;
@@ -47,7 +47,7 @@
 }
 .ceremony-and-reception .time {
 	font-size: 40px;
-	margin: 0 0 20px 0;
+	margin: 0 0 10px 0;
 	color: var(--pink-dk);
 	line-height: 1.2;
 }
