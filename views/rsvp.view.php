@@ -2,11 +2,12 @@
 <?php require('partials/banner.php'); ?>
 
 <main>
-    <section class="main-content">
+    <section class="main-content" style="background-image: url('assets/images/bg-about-couple.png');">
         <div class="container">
             <div class="inner-wrapper">
                 <h2 class="heading">RSVP</h2>
-                <p class="description">You are on RSVP page.</p>
+                <h3>Deric & Paulyn</h3>
+                <p class="description">Kindly respond by (date)</p>
             </div>
         </div>
     </section>

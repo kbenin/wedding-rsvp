@@ -56,7 +56,7 @@
             <div class="content-wrapper">
                 <h2 class="heading">How we meet?</h2>
                 <div class="timeline-content odd">
-                    <div class="left-wrapper image" style="background-image: url('assets/images/banner-inner-venue.jpg');">
+                    <div class="left-wrapper image" style="background-image: url('assets/images/couple-february.jpeg');">
                     </div>
                     <div class="right-wrapper content">
                         <span class="date">February 2020</span>
@@ -65,7 +65,7 @@
                     </div>
                 </div>
                 <div class="timeline-content even">
-                    <div class="left-wrapper image" style="background-image: url('assets/images/banner-inner-venue.jpg');">
+                    <div class="left-wrapper image" style="background-image: url('assets/images/couple-march.jpeg');">
                     </div>
                     <div class="right-wrapper content">
                         <span class="date">March 2020</span>
@@ -74,7 +74,7 @@
                     </div>
                 </div>
                 <div class="timeline-content odd">
-                    <div class="left-wrapper image" style="background-image: url('assets/images/banner-inner-venue.jpg');">
+                    <div class="left-wrapper image" style="background-image: url('assets/images/couple-april-september.jpeg');">
                     </div>
                     <div class="right-wrapper content">
                         <span class="date">April – September 2020</span>
@@ -83,7 +83,7 @@
                     </div>
                 </div>
                 <div class="timeline-content even">
-                    <div class="left-wrapper image" style="background-image: url('assets/images/banner-inner-venue.jpg');">
+                    <div class="left-wrapper image" style="background-image: url('assets/images/couple-september.jpeg');">
                     </div>
                     <div class="right-wrapper content">
                         <span class="date">September 2020</span>
@@ -92,7 +92,7 @@
                     </div>
                 </div>
                 <div class="timeline-content odd">
-                    <div class="left-wrapper image" style="background-image: url('assets/images/banner-inner-venue.jpg');">
+                    <div class="left-wrapper image" style="background-image: url('assets/images/couple-october.jpeg');">
                     </div>
                     <div class="right-wrapper content">
                         <span class="date">October 2020</span>
@@ -101,7 +101,7 @@
                     </div>
                 </div>
                 <div class="timeline-content even">
-                    <div class="left-wrapper image" style="background-image: url('assets/images/banner-inner-venue.jpg');">
+                    <div class="left-wrapper image" style="background-image: url('assets/images/couple-march-proposal.jpeg');">
                     </div>
                     <div class="right-wrapper content">
                         <span class="date">March 2024</span>
@@ -110,7 +110,7 @@
                     </div>
                 </div>
                 <div class="timeline-content odd">
-                    <div class="left-wrapper image" style="background-image: url('assets/images/banner-inner-venue.jpg');">
+                    <div class="left-wrapper image" style="background-image: url('assets/images/couple-october-wedding-day.jpeg');">
                     </div>
                     <div class="right-wrapper content">
                         <span class="date">October 19, 2025</span>
@@ -140,7 +140,7 @@
         <div class="container">
             <div class="content-wrapper">
                 <div class="left-wrapper card">
-                    <h2 class="heading">gift guide</h2>
+                    <h2 class="heading">Gift Guide</h2>
                     <p class="description">Your prayers, love, laughter, and company are all we could ask for, Nevertheless, If you would like to bestow a gift upon us, A monetary gift would be great to help us in our journey.</p>
                 </div>
                 <div class="right-wrapper card" style="background-image: url('assets/images/gift-guide.jpg');">
@@ -151,53 +151,72 @@
     <section class="dress-code" style="background-image: url('assets/images/bg-about-couple.png');">
         <div class="container">
             <div class="content-wrapper">
-                <h2 class="heading">dress code</h2>
+                <h2 class="heading">Dress Code</h2>
                 <p class="description">As we gather to celebrate our special day, we invite you to embrace the elegance of the occasion with your attire. Our wedding will take place in a romantic setting, and we would love for you to join us in creating a beautiful atmosphere.</p>
             </div>
             <div class="dress-code-guide">
                 <div class="left principal-sponsors">
-                    <h3 class="heading">principal sponsors</h3>
-                    <div class="card-wrapper">
-                        <div class="card gentlemen" style="background-image: url('assets/images/dress-code-principal-gentlemen.jpg');">
-                            <div class="card-content">
-                                <h4 class="card-title">gentlemen</h4>
-                                <p>Black Suit and Tie</p>
-                                <span class="note">( Tie color same as ladies )</span>
+                    <h3 class="heading">Principal Sponsors</h3>
+                    <div class="inner-wrapper">
+                        <div class="card-wrapper">
+                            <div class="card gentlemen">
+                                <div class="card-image" style="background-image: url('assets/images/dress-code-principal-gentlemen.jpg');">
+                                </div>
+                                <div class="card-content">
+                                    <h4 class="card-title">Gentlemen</h4>
+                                    <p>Black Suit and Tie</p>
+                                    <span class="note">( Tie color same as ladies )</span>
+                                </div>
+                            </div>
+                            <div class="card ladies">
+                                <div class="card-image" style="background-image: url('assets/images/dress-code-principal-ladies.jpg');">
+                                </div>
+                                <div class="card-content">
+                                    <h4 class="card-title">Ladies</h4>
+                                    <p>Strictly Long Gown</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="card ladies" style="background-image: url('assets/images/dress-code-principal-ladies.jpg');">
-                            <div class="card-content">
-                                <h4 class="card-title">ladies</h4>
-                                <p>Strictly Long Gown</p>
-                            </div>
+                        <div class="color-palette">
+                            <div class="color" style="background-color: #FFEFD5;"><div class="tooltiptext">#FFEFD5</div></div>
+                            <div class="color" style="background-color: #FFEEEE;"><div class="tooltiptext">#FFEEEE</div></div>
+                            <div class="color" style="background-color: #FDE5E3;"><div class="tooltiptext">#FDE5E3</div></div>
+                            <div class="color" style="background-color: #ECECEC;"><div class="tooltiptext">#ECECEC</div></div>
+                            <div class="color" style="background-color: #C0C0C0;"><div class="tooltiptext">#C0C0C0</div></div>
                         </div>
                     </div>
                 </div>
                 <div class="right guests">
-                    <h3 class="heading">guests</h3>
-                    <div class="card-wrapper">
-                        <div class="card gentlemen" style="background-image: url('assets/images/dress-code-guests-gentlemen.jpg');">
-                            <div class="card-content">
-                                <h4 class="card-title">gentlemen</h4>
-                                <p>Black Suit and Tie</p>
-                                <span class="note">( Tie color same as motif )</span>
+                    <h3 class="heading">Guests</h3>
+                    <div class="inner-wrapper">
+                        <div class="card-wrapper">
+                            <div class="card gentlemen">
+                                <div class="card-image" style="background-image: url('assets/images/dress-code-guests-gentlemen.jpg');">
+                                </div>
+                                <div class="card-content">
+                                    <h4 class="card-title">Gentlemen</h4>
+                                    <p>Black Suit and Tie</p>
+                                    <span class="note">( Tie color same as motif )</span>
+                                </div>
+                            </div>
+                            <div class="card ladies">
+                                <div class="card-image" style="background-image: url('assets/images/dress-code-guests-ladies.jpg');">
+                                </div>
+                                <div class="card-content">
+                                    <h4 class="card-title">Ladies</h4>
+                                    <p>Long Gown / Cocktail Dress</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="card ladies" style="background-image: url('assets/images/dress-code-guests-ladies.jpg');">
-                            <div class="card-content">
-                                <h4 class="card-title">ladies</h4>
-                                <p>Long Gown / Cocktail Dress</p>
-                            </div>
+                        <div class="color-palette">
+                            <div class="color" style="background-color: #FFEFD5;"><div class="tooltiptext">#FFEFD5</div></div>
+                            <div class="color" style="background-color: #FFEEEE;"><div class="tooltiptext">#FFEEEE</div></div>
+                            <div class="color" style="background-color: #FDE5E3;"><div class="tooltiptext">#FDE5E3</div></div>
+                            <div class="color" style="background-color: #ECECEC;"><div class="tooltiptext">#ECECEC</div></div>
+                            <div class="color" style="background-color: #C0C0C0;"><div class="tooltiptext">#C0C0C0</div></div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="color-palette">
-                <div class="color" style="background-color: #FFEFD5;"><div class="tooltiptext">#FFEFD5</div></div>
-                <div class="color" style="background-color: #FFEEEE;"><div class="tooltiptext">#FFEEEE</div></div>
-                <div class="color" style="background-color: #FDE5E3;"><div class="tooltiptext">#FDE5E3</div></div>
-                <div class="color" style="background-color: #ECECEC;"><div class="tooltiptext">#ECECEC</div></div>
-                <div class="color" style="background-color: #C0C0C0;"><div class="tooltiptext">#C0C0C0</div></div>
             </div>
             <div class="note-wrapper">
                 <p class="note">WE ENCOURAGE YOU TO DRESS ACCORDING TO OUR COLOR THEME</p>
@@ -220,7 +239,7 @@
         <div class="container">
             <div class="row">
                 <div class="content-wrapper">
-                    <h2 class="heading">got questions?</h2>
+                    <h2 class="heading">Got Guestions?</h2>
                     <div class="faqs-wrapper">
                         <div class="left-wrapper">
                             <div class="accordion">
@@ -289,7 +308,7 @@
                                 <div class="accordion-item">
                                     <h3 class="accordion-header">Am I allowed to take pictures and videos during the ceremony?</h3>
                                     <div class="accordion-body">
-                                        <p>We kindly ask that you join us in creating a truly meaningful ceremony by being fully present and refraining from using gadgets or taking photos during the service. Most   importantly, DO NOT BLOCK the view of our hired professional photo and video team during the entourage procession especially during the bridal march.<br><br>Rest assured, we’ve arranged for professional photographers to beautifully capture the most important moments, and we will gladly share these with you after the event.<br><br>Following the ceremony, feel free to take as many photos as you like! We would love for you to share your snapshots on social media using our official wedding hashtag:</p>
+                                        <p>We kindly ask that you join us in creating a truly meaningful ceremony by being fully present and refraining from using gadgets or taking photos during the service. Most   importantly, DO NOT BLOCK the view of our hired professional photo and video team during the entourage procession especially during the bridal march.<br><br>Rest assured, we’ve arranged for professional photographers to beautifully capture the most important moments, and we will gladly share these with you after the event.<br><br>Following the ceremony, feel free to take as many photos as you like! We would love for you to share your snapshots on social media using our official wedding hashtag: <strong>#PAUllinInLoveWithDERIC</strong></p>
                                     </div>
                                 </div>
                             </div>

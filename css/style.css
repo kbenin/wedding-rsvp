@@ -1,12 +1,15 @@
+@import 'fonts.css';
 @import 'header.css';
 @import 'nav.css';
-@import 'banner.css';
-@import 'fonts.css';
 @import 'footer.css';
-@import 'home.css';
+@import 'banner.css';
 @import 'invitation.css';
+@import 'home.css';
+@import 'entourage.css';
+@import 'gallery.css';
+@import 'venue.css';
+@import 'rsvp.css';
 @import '404.css';
-@import 'ceremony-reception.css';
 
 :root {
 	--pink: #efc3ca;
@@ -22,13 +25,24 @@ body {
 	width: 100%;
 	box-sizing: border-box; /* Include padding and border in the width */
 	margin: 0;
-	background: #f0f0f0;
 	font-family: var(--font-body);
 	font-size: 1.2em;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	min-height: 100vh;
+}
+.page-invitation .header-desktop,
+.page-invitation .header-mobile {
+	background-color: transparent;
+	display: none;
+}
+.page-invitation .logo {
+	padding: 140px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	filter: invert(1);
 }
 *, *::before, *::after {
 	box-sizing: border-box;
@@ -38,6 +52,7 @@ body {
 h1,h2,h3,h4,h5,h6 {
 	font-family: var(--font-heading);
 	font-weight: normal;
+	letter-spacing: 5px;
 }
 h1 {
 	font-size: 150px;
@@ -55,8 +70,10 @@ a {
 	transition: all 0.3s ease;
 }
 
-main {
-	margin-top: 61px;
+@media (min-width: 768px) {
+	.page-home main {
+		margin-top: 104px;
+	}
 }
 @media (max-width: 767px) {
 	main {
@@ -67,6 +84,7 @@ main {
 .container {
 	max-width: 1281px;
 	margin: 0 auto;
+	width: 100%;
 }
 
 .btn-link {
@@ -102,6 +120,7 @@ main {
 	justify-content: space-between;
 	align-items: center;
 	flex-direction: row;
+	letter-spacing: normal;
 }
 .accordion-header:hover,
 .accordion-header.active {
