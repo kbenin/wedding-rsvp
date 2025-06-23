@@ -1,0 +1,58 @@
+.ceremony-and-reception {
+	padding: 120px 15px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: relative;
+}
+.ceremony-and-reception::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	background-color: white;
+	opacity: 0.5;
+}
+.ceremony-and-reception .container {
+	position: relative;
+}
+.ceremony-and-reception .ceremony,
+.ceremony-and-reception .reception {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+.ceremony-and-reception .container > .inner-wrapper {
+	display: flex;
+	flex-direction: column;
+	row-gap: 60px;
+}
+.ceremony-and-reception .left-wrapper,
+.ceremony-and-reception .right-wrapper {
+	width: 50%;
+	padding: 20px;
+}	
+.ceremony-and-reception .slider {
+	border: 15px solid var(--pink);
+}
+.ceremony-and-reception .details-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	row-gap: 30px;
+	text-align: center;
+}
+.ceremony-and-reception .time {
+	font-size: 40px;
+	margin: 0 0 20px 0;
+	color: var(--pink-dk);
+	line-height: 1.2;
+}
+.ceremony-and-reception .address {
+	font-size: 25px;
+	margin: 0;
+	line-height: 1.2;
+}

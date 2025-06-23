@@ -1,0 +1,1 @@
+<a href="/" class="logo" style="background-image: url('assets/images/logo-dp.svg');"></a>

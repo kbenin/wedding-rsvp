@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Font Awesome 6 Free';
+    src: url('FontAwesome6Free-Regular.eot');
+    src: url('FontAwesome6Free-Regular.eot?#iefix') format('embedded-opentype'),
+        url('FontAwesome6Free-Regular.woff2') format('woff2'),
+        url('FontAwesome6Free-Regular.woff') format('woff'),
+        url('FontAwesome6Free-Regular.ttf') format('truetype'),
+        url('FontAwesome6Free-Regular.svg#FontAwesome6Free-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Font Awesome 6 Brands';
+    src: url('FontAwesome6Brands-Regular.eot');
+    src: url('FontAwesome6Brands-Regular.eot?#iefix') format('embedded-opentype'),
+        url('FontAwesome6Brands-Regular.woff2') format('woff2'),
+        url('FontAwesome6Brands-Regular.woff') format('woff'),
+        url('FontAwesome6Brands-Regular.ttf') format('truetype'),
+        url('FontAwesome6Brands-Regular.svg#FontAwesome6Brands-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Font Awesome 6 Free';
+    src: url('FontAwesome6Free-Solid.eot');
+    src: url('FontAwesome6Free-Solid.eot?#iefix') format('embedded-opentype'),
+        url('FontAwesome6Free-Solid.woff2') format('woff2'),
+        url('FontAwesome6Free-Solid.woff') format('woff'),
+        url('FontAwesome6Free-Solid.ttf') format('truetype'),
+        url('FontAwesome6Free-Solid.svg#FontAwesome6Free-Solid') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

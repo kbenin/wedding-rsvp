@@ -1,0 +1,23 @@
+.page-not-found .main-content {
+	padding: 60px 15px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 40vh;
+}
+.page-not-found .main-content .heading {
+	margin: 0;
+	line-height: 1;
+	text-align: center;
+}
+.page-not-found .main-content .description {
+	max-width: 750px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 30px;
+}
+.page-not-found .main-content .link {
+	font-style: italic;
+	color: var(--pink);
+}

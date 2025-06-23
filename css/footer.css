@@ -1,6 +1,18 @@
 .footer {
 	width: 100%;
 	background-color: #FFF;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+.footer::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	background-color: white;
+	opacity: 0.5;
 }
 .footer .container {
 	display: flex;
@@ -8,6 +20,7 @@
 	align-items: center;
 	width: 100%;
 	padding: 20px 15px;
+	position: relative;
 }
 .footer .container .footer-content-wrapper {
 	width: 100%;

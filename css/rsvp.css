@@ -1,0 +1,19 @@
+.page-rsvp .main-content {
+	text-align: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	padding: 120px 15px;
+	position: relative;
+}
+.page-rsvp .main-content::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	background-color: white;
+	opacity: 0.5;
+}
+.page-rsvp .main-content .container {
+	position: relative;
+}

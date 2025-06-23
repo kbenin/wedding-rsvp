@@ -1,0 +1,60 @@
+.page-entourage .main-content {
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 120px 15px;
+	text-align: center;
+}
+.page-entourage .main-content::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	background-color: white;
+	opacity: 0.5;
+}
+.page-entourage .content-wrapper {
+	position: relative;
+}
+.page-entourage .row {
+	margin-bottom: 60px;
+}
+.page-entourage .main-content .inner-wrapper {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.page-entourage .inner-wrapper .left-wrapper,
+.page-entourage .inner-wrapper .right-wrapper {
+	width: 45%;
+}
+.page-entourage ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.page-entourage .name {
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 25px;
+}
+.page-entourage .main-content .family-name {
+	margin: 0 0 20px 0;
+	font-size: 80px;
+}
+.page-entourage .main-content .title-main {
+	font-size: 65px;
+}
+.page-entourage .main-content .title {
+	font-size: 60px;
+	margin-bottom: 20px;
+	color: var(--pink-dk);
+}
+.page-entourage .description {
+	font-size: 30px;
+	line-height: 1.5;
+	margin: 10px auto 60px auto;
+	text-transform: capitalize;
+}
