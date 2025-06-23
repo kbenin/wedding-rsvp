@@ -102,6 +102,22 @@ a {
 	transition: all 0.3s ease;
 	background-color: var(--pink-dk);
 }
+.btn-pill {
+	padding: 7px 23px;
+	border-radius: 20px;
+	background-color: var(--pink);
+	border: 1px solid var(--pink);
+	color: white;
+	text-decoration: none;
+	font-size: 21px;
+	width: fit-content;
+}
+.btn-pill.active,
+.btn-pill:hover {
+	background-color: var(--pink-dk);
+	border-color: var(--pink-dk);
+	color: white;
+}
 
 .accordion-item {
 	border-bottom: 1px solid #000;

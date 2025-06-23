@@ -238,6 +238,7 @@
 	font-size: 35px;
 	font-family: var(--font-body);
 	margin-top: 5px;
+	letter-spacing: normal;
 }
 .timeline .timeline-content .date {
 	font-weight: bold;

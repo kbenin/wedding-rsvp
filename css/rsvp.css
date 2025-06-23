@@ -17,3 +17,11 @@
 .page-rsvp .main-content .container {
 	position: relative;
 }
+.page-rsvp .main-content .logo-rsvp {
+	max-height: 230px;
+}
+.page-rsvp .form-wrapper {
+	padding: 60px 15px;
+	display: flex;
+	justify-content: center;
+}

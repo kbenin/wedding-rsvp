@@ -33,7 +33,7 @@
                     </div>
                     <div class="right-wrapper details-wrapper">
                         <div class="details">
-                            <div class="time">4:30PM - Reception</div>
+                            <div class="time">4:30 PM - Reception</div>
                             <div class="address">Hacienda Solange Tagaytay, Brgy. 047 Aguinaldo - Alfonso Rd, Alfonso, Cavite</div>
                         </div>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3869.3168736179273!2d120.87320747509696!3d14.117453286313632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd9d47d1e89481%3A0xe031168a76d5712!2sHacienda%20Solange%20Private%20Events%20Place!5e0!3m2!1sen!2sph!4v1750575105251!5m2!1sen!2sph" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -206,7 +206,7 @@
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
     position: static;
     z-index: 3;
 }
