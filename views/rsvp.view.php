@@ -8,7 +8,7 @@
                 <img src="\assets\images\logo-dp.svg" alt="Deric & Paulyn" class="logo-rsvp"/>
                 <h3 class="heading">Kindly Reply</h3>
                 <p class="description">Please respond by september 18</p>
-                Test
+                Test Test
                 <div class="form-wrapper">
                     <form id="rsvp-form" autocomplete="off">
                         <label for="name">Name:</label>
