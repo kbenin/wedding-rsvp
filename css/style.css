@@ -110,7 +110,10 @@ a {
 	color: white;
 	text-decoration: none;
 	font-size: 21px;
-	width: fit-content;
+	font-family: var(--font-body);
+	transition: all 0.3s ease;
+	text-transform: uppercase;
+	cursor: pointer;
 }
 .btn-pill.active,
 .btn-pill:hover {

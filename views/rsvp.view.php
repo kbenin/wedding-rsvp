@@ -8,64 +8,52 @@
                 <img src="\assets\images\logo-dp.svg" alt="Deric & Paulyn" class="logo-rsvp"/>
                 <h3 class="heading">Kindly Reply</h3>
                 <p class="description">Please respond by september 18</p>
-                Test Test
                 <div class="form-wrapper">
-                    <form id="rsvp-form" autocomplete="off">
-                        <label for="name">Name:</label>
-                        <input type="search" id="name" name="name" placeholder="Please input name" required>
-                        <div id="search-results"></div>
-                        <span class="form-message">Please let us know who will be joining us to share in the joy of our special day</span>
-                        <button type="submit" style="margin-top: 1em;">Submit</button>
+
+                    <?php 
+                        if ($_SERVER['REQUEST_METHOD'] === 'POST' && 
+                            isset($_POST['first_name']) && 
+                            isset($_POST['last_name']) && 
+                            isset($_POST['phone_number']) && 
+                            isset($_POST['email_address'])) {
+                            // Here you would typically process the form data, e.g., save it to a database.
+                            // For this example, we'll just redirect to a thank you page.
+                            header('Location: /thank-you?success=true');
+                            exit;
+                        }
+                    ?>
+
+                    <form method="POST" action="/thank-you">
+                        <div class="form-group">
+                            <label for="fname">First Name: </label>
+                            <input type="text" id="fname" name="first_name" placeholder="First name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lname">Last Name: </label>
+                            <input type="text" id="lname" name="last_name" placeholder="Last name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="pnum">Phone: </label>
+                            <input type="text" id="pnum" name="phone_number" placeholder="Phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Email: </label>
+                            <input type="text" id="email" name="email_address" placeholder="Email" required>
+                        </div>
+                        <!-- <div class="form-group">
+                            <label for="companion">Select your companion: </label>
+                            <select id="companion" name="companion" required>
+                                <option value="" disabled selected>Select a companion</option>
+                                <option value="self">Self</option>
+                                <option value="spouse">Spouse</option>
+                                <option value="family">Family</option>
+                                <option value="friend">Friend</option>
+                                <option value="colleague">Colleague</option>
+                            </select>
+                        </div> -->
+                        <button class="btn-pill" type="submit" style="margin-top: 1em;">Submit</button>
                     </form>
 
-                    <script>
-                    document.getElementById('name').addEventListener('input', function() {
-                        const query = this.value.trim();
-                        if (query.length < 2) {
-                            document.getElementById('search-results').innerHTML = '';
-                            return;
-                        }
-                        fetch('search_names.php?q=' + encodeURIComponent(query))
-                            .then(res => res.json())
-                            .then(data => {
-                                if (!data || !data.group || data.group.length === 0) {
-                                    document.getElementById('search-results').innerHTML = '<div>No names found.</div>';
-                                    return;
-                                }
-                                let html = '<div class="group-list">';
-                                data.group.forEach(person => {
-                                    html += `
-                                        <div class="person-row" data-person-id="${person.id}">
-                                            <span>${person.name}</span>
-                                            <label>
-                                                <input type="radio" name="attend_${person.id}" value="yes" required> Yes
-                                            </label>
-                                            <label>
-                                                <input type="radio" name="attend_${person.id}" value="no" required> No
-                                            </label>
-                                            <input type="text" name="proxy_${person.id}" class="proxy-input" placeholder="Proxy name" style="display:none; margin-left:10px;" />
-                                        </div>
-                                    `;
-                                });
-                                html += '</div>';
-                                document.getElementById('search-results').innerHTML = html;
-
-                                // Show proxy input if "No" is selected
-                                document.querySelectorAll('.person-row input[type=radio][value=no]').forEach(radio => {
-                                    radio.addEventListener('change', function() {
-                                        const row = this.closest('.person-row');
-                                        row.querySelector('.proxy-input').style.display = 'inline-block';
-                                    });
-                                });
-                                document.querySelectorAll('.person-row input[type=radio][value=yes]').forEach(radio => {
-                                    radio.addEventListener('change', function() {
-                                        const row = this.closest('.person-row');
-                                        row.querySelector('.proxy-input').style.display = 'none';
-                                    });
-                                });
-                            });
-                    });
-                    </script>
                 </div>
             </div>
         </div>

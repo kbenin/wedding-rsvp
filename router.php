@@ -10,6 +10,7 @@ $routes = [
     '/venue' => 'controllers/venue.php',
     '/ceremony-and-reception' => 'controllers/ceremony-and-reception.php',
     '/rsvp' => 'controllers/rsvp.php',
+    '/thank-you' => 'controllers/thank-you.php',
 ];
 
 function routeToController($uri, $routes) {
